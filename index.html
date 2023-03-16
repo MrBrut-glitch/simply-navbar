@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="title" content="Schoolpage V3">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="./style.css" type="text/css">
+
+        <script src="./app.js" defer></script>
+
+        <title>Simple Navbar</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav_container container">
+                <div class="nav_left">
+                    <div class="interactable" data-type="home">
+                        <a href="#start">
+                            <img class="logo" src="./logo_icon.png" alt="No Img">
+                        </a>
+                    </div>
+                </div>
+                <div class="nav_rigth">
+                    <a href="#">Home</a>
+                    <a href="#">About me</a>
+                    <div class="dropdown">
+                        <button class="drop-button">Links</button>
+                        <div class="drop-content">
+                            <a href="#" target="_blank">yourPage</a>
+                            <a href="#" target="_blank">yourPage</a>
+                            <a href="#" target="_blank">yourPage</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="drop-button">Other Project</button>
+                        <div class="drop-content">
+                            <a href="#">yourPage</a>
+                            <a href="#">yourPage</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+  </body>
+</html>
